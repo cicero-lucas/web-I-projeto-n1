@@ -1,0 +1,289 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 16vh;
+}
+
+h1{
+  text-align: center;
+  margin: 30px auto;
+  font-size: 3.2rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.118);
+  /* color: white; */
+  text-transform: capitalize;
+}
+
+
+.form{
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative; 
+ 
+}
+
+.campos{
+  width: 98%;
+  height: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+input[type=search]{
+  width: 90%;
+  height: 40px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+.campos button {
+  width: 120px;
+  height: 40px;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: rgb(95, 101, 147);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px 30px;
+  cursor: pointer;
+
+}
+
+#btnB{
+  width: 150px;
+  background-color: #7a82be;
+  cursor: pointer;
+}
+
+.campos button:hover,#btnB:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid #5f6593;
+  transition: 0.5s ease-in-out;
+}
+
+.campos button:active{
+  background: #5f6593;
+  color: black;
+ 
+}
+
+.caixainf{
+  width: 100%;
+  text-align: center;
+  margin: 40px auto;
+ 
+}
+
+.caixainf p{
+  background: #5f6593;
+  color: white;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+
+}
+
+.caixaCard{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.caixainf img{
+  display: block;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  border-radius: 10px;
+  box-sizing: 1px 1px 1px 1px rgba(0, 0, 0, 0.107);
+  border: 3px solid #cbd0f82a;
+}
+
+footer{
+  background-color: #5f6593;
+  height: 12vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.caixaA{
+  width: 100%;
+  margin:60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardJ{
+  width: 320px;
+  height: 480px;
+  border:2px solid #5f6593;
+  border-radius: 10px; 
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.imgj{
+  width: 100%;
+  height: 200px;
+  background-color: #5f6593;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.imgj img{
+  width: 100%;
+  height: 96%;
+  display: block;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dadosJ{
+  width: 99%;
+  margin: auto;
+}
+
+.dadosJ h2{
+  text-align: center;
+  padding: 10px;
+}
+
+.dadosJ p{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  
+}
+.caixaB{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caixaB button{
+  width: 100px;
+  margin:21px auto;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnS{
+  background-color: rgb(255, 0, 0);
+}
+
+.btnF{
+  background-color: #daa520;
+}
+
+.btnS:hover, .btnF:hover{
+  background-color: rgba(0, 0, 0, 0.165);
+  color: black;
+  border: 1px solid #000000;
+  transition: 0.5s ease-in-out;
+}
+
+section.caixaF{
+  display: inline-block; 
+  background-color: #5f6593;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  
+  
+}
+
+.cardJF{
+  width: 320px;
+  height: 460px;
+  border:2px solid #daa520;
+  border-radius: 10px; 
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 30px;
+}
+
+.caixaj{
+  width: 200px;
+  height: 40px;
+  background-color: #5f6593;
+
+}
+
+.caixaq{
+  background-color: #daa520;
+  color: white;
+  border: 2px solid white;
+  width: 150px;
+  margin: 30px 10px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+
+#jf{
+  background-image: linear-gradient(45deg,transparent, #daa520, transparent);
+  padding: 2px;
+  margin: 8px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+@media screen and (min-width:600px) {
+  .form{
+    width: 600px;
+    margin: auto;
+  }
+
+  .caixainf{
+    width: 600px;
+    text-align: center;
+    margin:40px auto;
+  }
+
+  .caixaA{
+    width: 600px;
+  }
+
+ 
+  
+}
+
+
+
+
+
+
